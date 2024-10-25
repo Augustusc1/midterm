@@ -1,0 +1,86 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+}
+
+#mainnav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+#mainnav li{
+  background-color: limegreen;
+  width: 18%;
+}
+#mainnav a{
+  width: 100%;
+  display: block;
+  line-height: 3em;
+  text-align: center;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+} 
+.logo img{
+  border-radius: 50%;
+}
+.brand h1, .brand h2{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  padding-top: .8em;
+
+}
+.VidDesc h2{
+  text-align: center;
+  background-color: darkgray;
+}
+.middle{
+  display: flex;
+  justify-content: space-around;
+}
+.middle h2{
+  text-align: center;
+  background-color: darkgray;
+}
+main{
+  width: 30%
+}
+article{
+  width: 40%;
+}
+hr{
+  width: 95%
+}
+.imageGroup img{
+  width: 100%;
+}
+.imageGroup{
+  width: 45%;
+}
+.imageGroup h2{
+  text-align: center;
+  background-color: darkgray;
+}
+.imageGroup2 img{
+  width: 100%;
+}
+.imageGroup2{
+  width: 45%;
+}
+.imageGroup2 h2{
+  text-align: center;
+  background-color: darkgray;
+}
+aside{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+footer{
+  text-align: center;
+}
